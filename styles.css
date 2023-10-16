@@ -1,4 +1,135 @@
 *{
-    background-color: 1F2937;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
+/* HEADER */
+header {
+    background-color: #1F2937;
+    padding: 1em 13em;
+}
+
+/*NAVIGATION*/
+#logo {
+    font-size: 24px;
+    font-weight:900;
+    color: #F9FAF8
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.secondary,
+a:link {
+    font-size: 18px;
+    color: #e5e7eb
+    text-decoration: none;
+}
+
+/* WELCOME */
+.welcome {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+.welcome button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+
+}
+/*SECOND HEADER*/
+.second-header {
+    text-align: center;
+}
+.images-second {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.image-subtext p {
+    width: 180px;
+    text-align: center;
+}
+
+.image-subtext img {
+    height: 200px;
+    border-radius: 10px;
+    border: solid blue 2px;
+    width: 200px:
+}
+
+/*SIGN UP*/
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong{
+    font-size: 24px;
+    color: #FFF;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #1F2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
 }
