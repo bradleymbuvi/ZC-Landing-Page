@@ -76,18 +76,34 @@ button {
     border-radius: 8px;
 
 }
-/*SECOND HEADER*/
-.second-header {
-    text-align: center;
+/*IMAGE SECTION*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+main h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 .images-second {
-    margin-left: auto;
-    margin-right: auto;
-    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0 6em 0;
+    
 }
 .image-subtext p {
-    width: 180px;
     text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em
 }
 
 .image-subtext img {
